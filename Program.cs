@@ -6,7 +6,7 @@ namespace Bank_Heist_5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
         }
     }
 }
