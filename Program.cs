@@ -44,7 +44,5 @@ namespace Bank_Heist_5
                 PercentageCut = 20
             };
         }
-
-
     }
 }

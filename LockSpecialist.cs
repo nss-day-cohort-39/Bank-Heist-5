@@ -19,7 +19,6 @@ namespace Bank_Heist_5
             {
                 Console.WriteLine($"{Name} is picking a lock to the vault. decrease security vault by {SkillLevel} points");
             }
-
         }
     }
 }
