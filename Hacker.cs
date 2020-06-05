@@ -9,6 +9,15 @@ namespace Bank_Heist_5
         public int PercentageCut { get; set; }
         void PerformSkill(Bank bank)
         {
+            bank.VaultScore -= SkillLevel;
+            if (bank.VaultScore <= 0)
+            {
+                Console.WriteLine($"{Name} has unlocked the vault");
+
+            }else{
+                Console.WriteLine($"{Name} is picking a lock to the vault. decrease security vault by {SkillLevel} points");
+            }
+
             //return none
         }
     }
